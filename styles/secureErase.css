@@ -39,3 +39,21 @@ html {
     align-items: center;
 }
 
+.deneme{
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.test{
+    width: 90% !important;
+    margin: auto;
+
+}
+
+.denemetxt{
+    width: 70%;
+    margin: auto;
+}
