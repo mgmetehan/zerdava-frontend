@@ -3,11 +3,10 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      colors: {
-        'main-color': '#005152',
-        'second-color': '#003A37',
-      },
-    }
+     backgroundImage:{
+      'pack-train': "url(/src/images/alt-bantta-kullanılan-logo.svg')"
+     }
+    },
   },
   plugins: [],
 }
