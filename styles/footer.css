@@ -1,0 +1,158 @@
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+.mont-bold {
+    font-family: 'Mont-Bold';
+}
+
+:root {
+    --footer-main-color: #005152;
+    --footer-second-color: #003A37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+footer {
+    color: white;
+    width: 100%;
+    /*font-size: 1.7rem;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.foo {
+    background-image: linear-gradient(to right, var(--footer-main-color), var(--footer-main-color));
+    height: 40.3rem;
+    color: white;
+}
+
+.copy {
+    background-image: linear-gradient(to right, var(--footer-second-color), var(--footer-second-color));
+    height: 10rem;
+}
+
+.res div {
+    background-image: url("../images/alt-bantta-kullanılan-logo.svg");
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo h6 {
+    width: 13.3rem;
+    height: 11.9rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 0;
+}
+
+.footer-logo p {
+    text-align: left;
+    font-size: 1.7rem;
+}
+
+.contracts {
+}
+
+.contracts h6 {
+    font-size: 1.8rem;
+    text-align: start;
+}
+
+.contracts div {
+    text-align: start;
+}
+
+.contracts div p {
+    font-size: 1.6rem;
+}
+
+.support h6 {
+    font-size: 1.8rem;
+    text-align: start;
+}
+
+.support div {
+    text-align: start;
+}
+
+.support div p {
+    font-size: 1.6rem;
+}
+
+.career h6 {
+    font-size: 1.8rem;
+    text-align: start;
+}
+
+.career div {
+    text-align: start;
+}
+
+.career div p {
+    font-size: 1.6rem;
+}
+
+.copy{
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding:10rem 10rem;
+}
+
+.copy p{
+    font-size: 1.6rem;
+    justify-content: start;
+}
+
+.copy-start{
+    padding-left: 13%;
+    display: inline-block;
+    text-align: start;
+    justify-content: start;
+}
+
+.copy-end{
+    padding-right: 20%;
+    text-align: end;
+    display: inline-block;
+    justify-content: end;
+}
+
+.copy div{
+    display: flex;
+    justify-content: center;
+}

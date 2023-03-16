@@ -13,3 +13,63 @@ html {
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
+
+
+
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+:root {
+    --footer-main-color: #005152;
+    --footer-second-color: #003A37;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+footer {
+    color: white;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    vertical-align: center;
+    font-size: 1.7rem;
+}
+
+.foo {
+    background-image: linear-gradient(to right, var(--footer-main-color), var(--footer-main-color));
+    height: 40.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.copy {
+    background-image: linear-gradient(to right, var(--footer-second-color), var(--footer-second-color));
+    height: 10rem;
+}
+
+.res div{
+    background-image: url("../images/alt-bantta-kullanılan-logo.svg");
+}
