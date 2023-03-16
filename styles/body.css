@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+.body-background{
+  
+    background-size: cover;
+  height: 90vh;
+  width: auto;
+      background-image: linear-gradient(to right,#00928A,#04D992);  
+
+}
+.deneme{
+    background-image:url('../svg/giriş-sayfasında-fotoğraf-üzeride-kullanılan-desen.svg'); 
+    position:absolute;
+    width: 80rem;
+    height: 90vh;
+    background-repeat: no-repeat;
+   
+   
+    background-size: cover;
+}
+.textt{
+    color: #FFF;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18rem;
+    font-size: 1.5rem;
+    
+}
+.filigran{
+  
+    background-size: cover;
+  height: 50vh;
+ 
+  background-image:url('../svg/sitede-kullanılan-filigran.svg');  
+
+}
+.card{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    border: none !important;
+    align-items: center;
+    gap: 2rem;
+}
+.cards{
+    width: 60%;
+    margin: auto;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+.card img{
+    border-radius: 2rem;
+    box-shadow: -5px -2px rgba(146, 140, 140, 0.80);
+    
+}
+.kalkan{
+    background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
+    background-repeat: no-repeat;
+    background-position:right;
+    
+}
