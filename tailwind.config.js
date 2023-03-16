@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "nav-bg": "url('/src/img/giriş-sayfasında-kullanılan-üst-panelde-ki-gölge.svg')"
+      }
+    },
   },
   plugins: [],
 }
