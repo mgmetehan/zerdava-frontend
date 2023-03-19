@@ -73,3 +73,10 @@
     -moz-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.banner-two {
+    background-image: url("../images/ZERDAVA_Banner-iki.jpg");
+    background-size: 100% 38rem;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
