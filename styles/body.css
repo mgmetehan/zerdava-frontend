@@ -18,7 +18,9 @@ html {
     background-size: cover;
   height: 90vh;
   width: auto;
-      background-image: linear-gradient(to right,#00928A,#04D992);  
+      background-image: linear-gradient(to right,#00928A,#04D992,#00928A);  
+      box-shadow: inset 5px 1px rgb(63, 61, 63);
+ opacity: 100%;
 
 }
 .deneme{
@@ -50,8 +52,9 @@ html {
 
 }
 .card{
-    flex-direction: row;
+    
     display: flex;
+    flex-direction: row;
     justify-content: center;
     border: none !important;
     align-items: center;
@@ -67,12 +70,21 @@ html {
 }
 .card img{
     border-radius: 2rem;
-    box-shadow: -5px -2px rgba(146, 140, 140, 0.80);
+    object-fit:cover; 
     
 }
 .kalkan{
     background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
     background-repeat: no-repeat;
     background-position:right;
-    
+ padding: 5rem;
+
+}
+.card p{
+    color:#005352;
+}
+
+.card h3{
+    padding-bottom: 5%;
+  color:#005352;
 }
