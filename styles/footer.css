@@ -62,6 +62,11 @@
     height: 2.5rem;
 }
 
+.footer-social-icon a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .copyright {
     background-color: var(--footer-second-color);
     color: #9EB4B3;
@@ -73,8 +78,45 @@
 
 .banner-two {
     background-image: url("../images/ZERDAVA_Banner-iki.jpg");
-    background-size: 100% 38rem;
+    background-size: cover;
     height: 50vh;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.footer-social-icon-img {
+    width: 10%;
+    height: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-social-icon-img {
+        width: 1rem;
+        height: 1rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer div ul {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo-text span {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-social-icon {
+        white-space: nowrap !important;
+        flex-wrap: nowrap;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
 }
