@@ -21,6 +21,12 @@
     --footer-second-color: #003A37;
 }
 
+.international-calls {
+    background-image: url("../svg/ana-sayfa-zeminde-kullanılan-desen.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .footer {
     padding-top: 1rem;
     background-color: var(--footer-main-color);
