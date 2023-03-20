@@ -13,6 +13,14 @@ html {
     overflow-x: hidden;
 }
 
+@font-face {
+    font-family: mont-Regular;
+    src: url(.././font/Mont-Regular.otf);
+  }
+  
+  div {
+    font-family: mont-Regular;
+  }
 
 .button{
     background-color: #005152;
@@ -33,11 +41,11 @@ html {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 60vh;
+    height: auto;
     background-attachment: scroll;
     display: flex;
     align-items: center;
-}
+}  
 
 .deneme{
     width: 65%;
@@ -56,4 +64,19 @@ html {
 .denemetxt{
     width: 70%;
     margin: auto;
+}
+
+.nav{
+    background-color: #005152;
+}
+
+.navbar-bg{
+        background-image: url('./../svg/anasayfaikonlarzemini.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        background-attachment: scroll;
+        display: flex;
+        align-items: center;
 }
