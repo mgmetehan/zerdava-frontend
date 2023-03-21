@@ -16,11 +16,14 @@ html {
 .body-background{
   
     background-size: cover;
-  height: 90vh;
-  width: auto;
+  height: 80vh;
+  
       background-image: linear-gradient(to right,#00928A,#04D992,#00928A);  
       box-shadow: inset 5px 1px rgb(63, 61, 63);
  opacity: 100%;
+display: flex;
+ flex-direction: row;
+ align-items: center;
 
 }
 .deneme{
@@ -29,8 +32,7 @@ html {
     width: 80rem;
     height: 90vh;
     background-repeat: no-repeat;
-   
-   
+
     background-size: cover;
 }
 .textt{
@@ -73,13 +75,20 @@ html {
     object-fit:cover; 
     
 }
-.kalkan{
+/* .kalkan{
+    background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
+    background-repeat: no-repeat;
+    background-position:left;
+    padding: 5rem;
+
+}  //2 ve 4 fotoalarının arkasına kalkan eklemek için
+.kalkan2{
     background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
     background-repeat: no-repeat;
     background-position:right;
  padding: 5rem;
 
-}
+} */
 .card p{
     color:#005352;
 }
@@ -87,4 +96,15 @@ html {
 .card h3{
     padding-bottom: 5%;
   color:#005352;
+}
+.line{
+    width: 35rem; margin-bottom: 2%;  border-bottom: 1rem rgb(250, 246, 246) solid;
+}
+.yusuf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen {
+    
 }
