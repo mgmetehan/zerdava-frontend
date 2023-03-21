@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+.mont-bold {
+    font-family: 'Mont-Bold';
+}
+
+:root {
+    --text-main-color: #005152;
+}
 
 .new-version {
     background-image: linear-gradient(to right, #75CDA3, #3BB7AC);
@@ -15,11 +31,9 @@
     height: 30%;
 }
 
-@font-face {
-    font-family: 'Mont-Regular';
-    src: url('../fonts/Mont-Regular.otf') format('otf');
-}
-
-.mont-regular {
-    font-family: 'Mont-Regular';
+.filigran {
+    background-image: url('../svg/sitede-kullanılan-filigran.svg');
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
