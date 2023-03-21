@@ -7,3 +7,14 @@ body{
     background-repeat: no-repeat;
     background-position: fixed;
 }
+
+.aramaIcon{
+    background-image: url("../images/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
