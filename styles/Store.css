@@ -1,0 +1,25 @@
+
+.new-version {
+    background-image: linear-gradient(to right, #75CDA3, #3BB7AC);
+}
+
+.new-version p {
+    color: black;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.new-version img {
+    display: block;
+    width: 30%;
+    height: 30%;
+}
+
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
