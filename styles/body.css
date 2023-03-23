@@ -47,10 +47,14 @@ display: flex;
 }
 .filigran{
   
-    background-size: cover;
-  height: 50vh;
- 
-  background-image:url('../svg/sitede-kullanılan-filigran.svg');  
+   	
+
+
+ background-image: url('./../svg/sitede-kullanılan-filigran.svg'); 
+
+background-size: cover;
+height: 50vh;
+
 
 }
 .card{
@@ -60,7 +64,7 @@ display: flex;
     justify-content: center;
     border: none !important;
     align-items: center;
-    gap: 2rem;
+    gap: 3rem;
 }
 .cards{
     width: 60%;
@@ -68,7 +72,7 @@ display: flex;
     border: none !important;
     display: flex;
     flex-direction: column;
-    gap: 6rem;
+    /* gap: 10rem; */
 }
 .card img{
     border-radius: 2rem;
@@ -80,14 +84,12 @@ display: flex;
     background-repeat: no-repeat;
     background-position:left;
     padding: 5rem;
-
 }  //2 ve 4 fotoalarının arkasına kalkan eklemek için
 .kalkan2{
     background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
     background-repeat: no-repeat;
     background-position:right;
  padding: 5rem;
-
 } */
 .card p{
     color:#005352;
@@ -105,6 +107,20 @@ display: flex;
     flex-direction: column;
     align-items: center;
 }
-@media screen {
+@media screen and (max-width: 600px) {
     
+    .filigran{
+       background-size: cover;
+       height: 10vh;
+       }
+
+}
+@media screen and (max-width: 1084px) {
+    
+    .filigran{
+       background-size: cover;
+       height: 19vh;
+       
+       }
+
 }
