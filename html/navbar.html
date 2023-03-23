@@ -12,9 +12,8 @@
 </head>
 
 <body>
-    <div
-        style="background-image: url('../images/giriş-sayfasında-kullanılan-üst-panelde-ki-gölge.svg'); background-repeat: no-repeat; background-size: cover;">
-        <div class="container">
+    <div style="background-image: url('../images/giriş-sayfasında-kullanılan-üst-panelde-ki-gölge.svg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container overflow-hidden position-relative">
             <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
                 <div class="container-fluid">
                     <img style="width: 10rem; height: 12rem;" src="../images/üst-bantta-kullaılan-zerdava-logo.svg" />
@@ -67,8 +66,9 @@
                                     <a class="nav-link active text-light" href="#">Bize Ulaşın</a>
                                 </li>
                                 <li>
-                                    <form class="d-flex" role="search">
-                                        <button class="aramaIcon" type="submit"></button>
+                                    <form class="d-flex flex-row d-flex flex-wrap-reverse justify-content-end searchForm" role="search">
+                                        <button class="border-0 rounded aramaIcon"></button>
+                                        <input class="d-flex border border-0 p-0 searchInput" type="text">
                                     </form>
                                 </li>
                             </ul>
@@ -76,28 +76,20 @@
                     </div>
                 </div>
             </nav>
-            <div class="scroll-up-div">
-                
-            </div>
             <script>
-                var scrollUpDiv = document.querySelector(".scroll-up-div");
-
                 window.addEventListener("scroll", function () {
-                    if (window.scrollY > 200) {
-                        scrollUpDiv.style.display = "block";
-                    } else {
-                        scrollUpDiv.style.display = "none";
-                    }
-                });
-
-                scrollUpDiv.addEventListener("click", function () {
-                    window.scrollTo({
-                        top: 0,
-                        behavior: "smooth"
-                    });
+                   var element = document.getElementById('scroll');
+                   element.style.bottom = "0px";
                 });
             </script>
-
+        </div>
+        <div class="scroll-up-div" id="scroll">
+            <section>
+                Gizliliğiniz <i>için</i><br/> Gelişmiş<br/> <label>Silme</label> Teknolojisi
+            </section>
+            <button class="rounded bg-white d-flex justify-content-center align-items-center border-0 fs-medium"> <!--w-120 h-50 mt-40 ms-280-->
+                Daha Dazla
+            </button>
         </div>
     </div>
 
@@ -111,5 +103,4 @@
         src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js">
         </script>
 </body>
-
 </html>
