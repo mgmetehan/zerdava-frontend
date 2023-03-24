@@ -60,17 +60,20 @@ body{
 .scroll-up-div section{
     font-size: 50px;
     font-weight: 900;
-    color: white;
+    /*color: white; */
+    /*line-height: 3.5rem; */
 }
+/*
 .scroll-up-div i{
     font-size: large;
     font-weight: 400;
-    /*opacity: 0.6;*/
-}
+    /*opacity: 0.6;
+}*/
+/*
 .scroll-up-div label{
     font-size: xx-large;
-    /*opacity: 0.6;*/
-}
+    opacity: 0.6;
+}*/
 
 .scroll-up-div button{
     /*border-radius: 5px;
@@ -85,7 +88,7 @@ body{
     margin-top: 40px;
     margin-left: 280px;
 }
-
+/*
 @media only screen and (max-width: 600px) {
     .scroll-up-div {
       height: 50%;
@@ -93,3 +96,4 @@ body{
       position: fixed;
     }
   }
+  */
