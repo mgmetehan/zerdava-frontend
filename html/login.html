@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/login.css">
+        <title>ZERDAVA</title>
+</head>
+
+
+<body>
+    <div
+        style="background-image: url('../images/giriş-sayfasında-kullanılan-üst-panelde-ki-gölge.svg'); background-repeat: no-repeat; background-size: cover;">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
+            <div class="container-fluid">
+                <img style="width: 10rem; height: 12rem;" src="../svg/üst-bantta-kullaılan-zerdava-logo.svg" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse row row-cols-sm-1" id="navbarSupportedContent">
+                    <!--row row-cols-sm-1-->
+                    <div class="col-md-12 justify-content-end d-flex align-items-center ">
+                        <div class="d-flex flex-column">
+                            <div class="d-flex justify-content-end w-100">
+                                <a class="nav-link active text-light" href="#">EN</a>
+                            </div>
+                            <ul
+                                class="navbar-nav d-flex justify-content-end pr-10 ms-auto mb-2 mb-lg-0 align-items-center">
+                                <li>
+                                    <a class="nav-link active text-light" href="#">Kariyer</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link active text-light" href="#">İş ortağı programı</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link active text-light" href="#">TR</a>
+                                </li>
+                                <li>
+                                    <img style="width: 1rem; height: 1rem;"
+                                        src="../svg/ZERDAVA-WEB-SİTESİ-dil-ikonu.svg" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 d-flex text-right justify-content-end ">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end"
+                            style="text-shadow: 2px 2px rgba(0,0,0,0.2);">
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" aria-current="page" href="#">Hakkında</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-light" onclick="togglePanel()"
+                                    style="background-color: transparent; color: aliceblue; border: none;">My
+                                    Zerdava</button>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" href="#">Mağaza</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" href="#">Destek</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-light" href="#">Bize Ulaşın</a>
+                            </li>
+                            <li>
+                                <form class="d-flex" role="search">
+                                    <button class="aramaIcon" type="submit"></button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="panel-body " id="panel" style="display: none;">
+        <div class="row">
+            <div class="card-container">
+                <div class="col d-flex justify-content-center">
+
+                    <div class="card w-25 ml-2"
+                        style="border-radius: 9px; margin: 5%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; height: 80%;">
+                        <div class="card-body">
+                            <form class="justify-content-center">
+                                <div class="form-group">
+                                    <br>
+                                    <h5 class="card-title text-center">Zerdava hesabınıza girin</h5>
+                                    <br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="col-8 justify-content-center">
+                                            <label for="exampleInputEmail1">E-mail</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email"
+                                                style="max-width: 95%;">
+                                            <br>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Şifre</label>
+                                                <div class="d-flex">
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" placeholder="Password">
+                                                    <img class="ml-5 mt-2"
+                                                        src="../svg/ZERDAVA-WEB-SITESI-parola-goz-ikonu.svg" height="15"
+                                                        width="15">
+                                                </div>
+                                                <div class="d-flex justify-content-center"
+                                                    style="align-items: center; flex-direction: column;">
+                                                    <br><br>
+                                                    <button type="submit" class="btn btn-primary justify-content-center"
+                                                        style="border-radius: 9px; width: 60%; background-color: #0052515b; border: none;">Giriş
+                                                        Yap</button>
+                                                    <br>
+                                                    <a href="#">
+                                                        <p style="color: #005251; text-decoration:none;">Şifremi unuttum
+                                                        </p>
+                                                    </a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="card ml-2"
+                        style="border-radius: 9px; margin: 5%; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; height: 80%; width: 600px;">
+                        <div class="card-body">
+                            <form class="justify-content-center">
+                                <div class="form-group">
+                                    <br>
+                                    <h5 class="card-title text-center">Zerdava Hesabınızı Oluşturun</h5>
+                                    <br>
+                                    <div class="d-flex justify-content-center">
+                                        <div class="col-8 justify-content-center">
+                                            <label for="exampleInputEmail1">E-mail</label>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp" placeholder="Enter email"
+                                                style="max-width: 97%;">
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Şifre</label>
+                                                <div class="d-flex">
+                                                    <input type="password" class="form-control"
+                                                        id="exampleInputPassword1" placeholder="Password">
+                                                    <img class="ml-5 mt-2"
+                                                        src="../svg/ZERDAVA-WEB-SITESI-parola-goz-ikonu.svg" height="15"
+                                                        width="15">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="exampleInputPassword1">Şifre</label>
+                                                    <div class="d-flex">
+                                                        <input type="password" class="form-control"
+                                                            id="exampleInputPassword1" placeholder="Password">
+                                                        <img class="ml-5 mt-2"
+                                                            src="../svg/ZERDAVA-WEB-SITESI-parola-goz-ikonu.svg"
+                                                            height="15" width="15">
+                                                    </div>
+                                                    <p style="color: #005251;" class="text-center">ZERDAVA hesabınızı
+                                                        oluşturmakla Gizlilik Politikası ve Lisans Anlaşmasını da kabul
+                                                        etmiş oluyorsunuz.</p>
+
+                                                    <div class="d-flex justify-content-center"
+                                                        style="align-items: center; flex-direction: column;">
+                                                        <br>
+                                                        <button type="submit"
+                                                            class="btn btn-primary justify-content-center"
+                                                            style="border-radius: 15px; width: 40%; background-color: #0052515b; border: none;">Kayıt Ol
+                                                        </button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+    <script>
+        function togglePanel() {
+            var panel = document.getElementById("panel");
+            if (panel.style.display === "none") {
+                panel.style.display = "block";
+            } else {
+                panel.style.display = "none";
+            }
+        }
+    </script>
+
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Development version -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
