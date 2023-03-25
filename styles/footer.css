@@ -97,6 +97,18 @@
         white-space: nowrap;
         display: inline-block;
     }
+
+    .footer-social-icon {
+        display: block;
+    }
+
+    .footer-social-icon div {
+        display: contents;
+    }
+
+    .footer-social-icon a {
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
