@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/web-sitesi-banner.jpeg");
+    background-image: url("./images/web-sitesi-banner.jpeg");
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -8,7 +8,7 @@ body {
 }
 
 .aramaIcon {
-    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-image: url("./images/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
@@ -29,8 +29,5 @@ body {
     background-color: rgba(254, 255, 255, 0.704);
 
   }
-
-
-
 
   
