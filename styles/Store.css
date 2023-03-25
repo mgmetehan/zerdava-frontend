@@ -13,6 +13,7 @@
 
 :root {
     --text-main-color: #005152;
+    --store-navbar-color: #048F89;
 }
 
 .new-version {
@@ -36,4 +37,36 @@
     height: 20vh;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.store-navbar {
+    padding-top: 5rem;
+    background-color: var(--store-navbar-color);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .store-navbar {
+        font-size: 1.5rem; /* 18px / 16px */
+    }
+
+    .store-navbar-text p {
+        margin-right: 0 !important;
+    }
+}
+
+.store-navbar-text {
+}
+
+.box-button {
+    margin-top: -2px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: var(--text-main-color);
+    color: #fff;
+    border: none;
+    font-size: 10px;
 }
