@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+.mont-bold {
+    font-family: 'Mont-Bold';
+}
+
+:root {
+    --text-main-color: #005152;
+    --store-navbar-color: #048F89;
+    --footer-main-color: #005152;
+    --footer-second-color: #003A37;
+}
+
+.box-button {
+    margin-top: -2px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: var(--text-main-color);
+    color: #fff;
+    border: none;
+    font-size: 10px;
+}
+
+.new-version {
+    background-image: linear-gradient(to right, #75CDA3, #3BB7AC);
+}
+
+.new-version p {
+    color: black;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.new-version img {
+    display: block;
+    width: 30%;
+    height: 30%;
+}
+
+.footer {
+    padding-top: 1rem;
+    background-color: var(--footer-main-color);
+    color: #fff;
+}
+
+.foo {
+    min-height: 25rem;
+    color: #fff;
+}
+
+.footer-left span {
+    font-size: 1.063rem;
+}
+
+.footer-left a img {
+    width: 8.313rem;
+    height: 7.438rem;
+    margin-bottom: 2rem;
+}
+
+.footer-content a {
+    color: #ffffff !important;
+}
+
+.footer-social-icon div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-icon a img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.footer-social-icon a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

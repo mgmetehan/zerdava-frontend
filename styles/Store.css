@@ -3,6 +3,11 @@
     src: url('../fonts/Mont-Regular.otf') format('otf');
 }
 
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
 .mont-regular {
     font-family: 'Mont-Regular';
 }
