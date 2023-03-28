@@ -24,7 +24,7 @@ display: flex;
 }
 
 .filigran {
-    background-image: url('../svg/sitede\ kullan─▒lan\ filigran.svg');
+    background-image: url('../svg/sitede-kullanilan-filigran.svg');
     background-size: cover;
     background-repeat: no-repeat;  
     height: 40vh;
@@ -57,20 +57,14 @@ display: flex;
 }
 
 .bck {
-    background-image: url('../svg/giris╠ğ\ sayfas─▒nda\ fotog╠åraf\ u╠êzeride\ kullan─▒lan\ desen.svg');
+    background-image: url('../svg/giris-sayfasindafotograf-uzeride-kullanilandesen.svg');
     background-size: 100%;
     background-repeat: no-repeat;
 
 }
 
-.ftfooter {
-    background-image: url('../svg/mag╠åaza\ sayfas─▒\ ikonlar\ zemini.svg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .icons {
-    background-image: url('../svg/mag╠åaza\ sayfas─▒\ ikonlar\ zemini.svg');
+    background-image: url('../svg/magaza-sayfas-ikonlar-zemini.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: cover;
