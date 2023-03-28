@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/styles/about.css">
+    <title>Hakkında</title>
+</head>
+
+<body>
+    <div style="background-image: url('../svg/giriş-sayfasında-kullanılan-üst-panelde-ki-gölge.svg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="container overflow-hidden position-relative">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
+                <div class="container-fluid">
+                    <img style="width: 10rem; height: 12rem;" src="../svg/üst-bantta-kullaılan-zerdava-logo.svg"/>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toglgle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse row row-cols-sm-1" id="navbarSupportedContent">
+                        <div class="col-md-12 justify-content-end d-flex align-items-center ">
+                            <div class="d-flex flex-column">
+                                <div class="d-flex justify-content-end w-100">
+                                    <a class="nav-link active text-light" href="#">EN</a>
+                                </div>
+                                <ul
+                                    class="navbar-nav d-flex justify-content-end pr-10 ms-auto mb-2 mb-lg-0 align-items-center">
+                                    <li>
+                                        <a class="nav-link active text-light" href="#">Kariyer</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link active text-light" href="#">İş ortağı programı</a>
+                                    </li>
+                                    <li>
+                                        <a class="nav-link active text-light" href="#">TR</a>
+                                    </li>
+                                    <li>
+                                        <img style="width: 1rem; height: 1rem;"
+                                            src="../svg/ZERDAVA-WEB-SİTESİ-dil-ikonu.svg"/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-12 d-flex text-right justify-content-end ">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end"
+                                style="text-shadow: 2px 2px rgba(0,0,0,0.2);">
+                                <li class="nav-item">
+                                    <a class=" nav-link active text-light" href="#" onclick="togglePanel()">Hakkında</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" href="#">My ZERDAVA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" href="#">Mağaza</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" href="#">Destek</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light" href="#">Bize Ulaşın</a>
+                                </li>
+                                <li>
+                                    <form class="d-flex flex-row d-flex flex-wrap-reverse justify-content-end searchForm" role="search">
+                                        <button class="border-0 rounded aramaIcon"></button>
+                                        <input class="d-flex border border-0 p-0 searchInput" type="text">
+                                    </form>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Panel Start -->
+    <div class="panel-body" id="panel" style="display: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 pt-2">
+                    <br>
+                    <div class="card" style="border-radius: 9px; box-shadow: 2px 3px 6px 1px rgba(0,0,0,0.3); min-height: 80%;">
+                        <div class="card-body">
+                            <article class="pt-4 p-3">
+                                <h5>Şirket hakkında</h5>
+                                <p>
+                                    Bireysel ve kurumsal kullanıcılar için güvenli veri silme konusunda uzmanlaşmış veri güvenliği şirketidir.
+                                </p>
+                                <h6>
+                                    -Kurumsal Kimlik
+                                </h6>
+                                <hr>
+                            </article>
+                        </div>
+                        <div class="brandValue">
+                            <h6>
+                                -Marka değerleri
+                            </h6>
+                            <img src="../svg/ZERDAVA-WEB-SİTESİ.svg">
+                        </div>
+                        <br>
+                        <br><br><br><br><br><br><br>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="card pt-4 pb-5" style="border-radius: 9px; margin: 5%; box-shadow: 2px 3px 6px 1px rgba(0,0,0,0.3);">
+                        <div class="p-4">
+                            <p>
+                                <b>ZERDAVA Teknoloji A.Ş. </b>bireysel ve kurumsal kullanıcılar için güvenli veri silme konusunda uzman- laşmış veri güvenliği şirketidir. Global ölçekte faaliyet gösteren şirket; dosyaları, klasörleri ve sabit sürücüleri güvenli bir şekilde silmek için tasarlanmıştır. AR-GE çalışmalarının tamamı Türki- ye’de yürütülmektedir. ZERDAVA, son teknoloji ürünü silme algoritmaları ile güvenli dosya silmede devlet ve askeri kuruluşlar tarafından kullanılan uluslararası standartları kullanmaktadır.
+                            </p> 
+                            <p>
+                                Sürüme bağlı olarak ZERDAVA, DoD 5220.22-ME, ABD Hava Kuvvetleri (AFSSI-5020), ABD Ordusu AR380-19, DoD 5220.22-M ECE, BSI/VS-ITR TL-03423, CSEC ITSG-06, NATO Standardı, Gutmann, HMG InfoSec No.5, DoD 5220.22 SSD ve diğerleri gibi silme algoritmalarıyla birlikte gelir.
+                            </p>
+                            <p>
+                                Projelerini %100 yerli ve yüksek teknolojili olma önceliğiyle geliştiren şirket; kullanıcıların siber güvenlik problemlerini yenilikçi metotlarla çözen, kullanıcı deneyimini ön planda tutan, farklı platformlarda kullanılabilen küresel pazara hitap eden özgün üretimler yapmaktadır.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Panel End -->
+
+    <script>
+        function togglePanel() {
+            var panel = document.getElementById("panel");
+            if (panel.style.display === "none") {
+                panel.style.display = "block";
+            } else {
+                panel.style.display = "none";
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <!-- Development version -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+
+    <!-- Production version -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

@@ -6,21 +6,16 @@ body{
     background-repeat: no-repeat;
     background-position: fixed;
 }
-/*
-.container{
-    overflow: hidden;
-    position: relative;
-} */
+
 .aramaIcon {
-    background-image: url("../images/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: fixed;
     width: 40px;
     height: 30px;
-   /* border-radius: 5px;
-    border: none;*/
 }
+
 .searchInput{
     /*display: flex;
     padding: 0px;
@@ -28,19 +23,15 @@ body{
     transition: 0.5s;
     max-width: 0px;
 }
-/*
-.searchForm{
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: flex-end;
-}*/
+
 .aramaIcon:focus ~ .searchInput{
     max-width: 200px;
 }
+
 .searchInput:focus{
     max-width: 200px;
-
 }
+
 .scroll-up-div{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -49,7 +40,6 @@ body{
     right: 200px;
     bottom: -400px;
     position: absolute;
-    /*opacity: 1;*/
     transition: 1s;
     opacity: 70%;
     background-color: #006a68;
@@ -57,43 +47,15 @@ body{
     align-items: flex-end;
     text-align: end;
 }
+
 .scroll-up-div section{
     font-size: 50px;
     font-weight: 900;
-    /*color: white; */
-    /*line-height: 3.5rem; */
 }
-/*
-.scroll-up-div i{
-    font-size: large;
-    font-weight: 400;
-    /*opacity: 0.6;
-}*/
-/*
-.scroll-up-div label{
-    font-size: xx-large;
-    opacity: 0.6;
-}*/
 
 .scroll-up-div button{
-    /*border-radius: 5px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    border-style: none;
-    font-size: medium;
-    display: flex; */
     width: 120px;
     height: 50px;
     margin-top: 40px;
     margin-left: 280px;
 }
-/*
-@media only screen and (max-width: 600px) {
-    .scroll-up-div {
-      height: 50%;
-      width: 100px;
-      position: fixed;
-    }
-  }
-  */
