@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+ .brand-value{
+  
+    background-image:url('../images/shutterstock_1918278398.jpg');
+    background-size: cover;
+     height:100vh; 
+     align-items: center;
+background-position: 30%;
+} 
+.brand-value p{
+    color: #FFF;
+   
+}
+.filigran{
+ background-image: url('../svg/sitede-kullanılan-filigran.svg'); 
+background-size: cover;
+height: 40vh;
+background-repeat: no-repeat;
+
+}
+.line{
+    width: 35rem; margin-bottom: 2%;  border-bottom: 1rem rgb(250, 246, 246) solid;
+}
+
+.text-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text-background{
+  background-color: #FFF;
+  height: 80vh;
+  display: grid;
+  align-items: start;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .filigran{
+       background-size: cover;
+       height: 10vh;
+       }
+
+}
+@media screen and (max-width: 600px) {
+    
+    .line{
+        width: 24rem;
+       
+       }
+
+}
+@media screen and (max-width: 1084px) {
+    
+    .filigran{
+       background-size: cover;
+       height: 19vh;
+       
+       }
+
+}
+body {
+    background-image: url("../svg/web-sitesi-banner.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.aramaIcon {
+    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.scroll-up-div {
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+}
+
+@font-face {
+    font-family:'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
+
+
+/* footer */
+
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+.mont-bold {
+    font-family: 'Mont-Bold';
+}
+
+:root {
+    --footer-main-color: #005152;
+    --footer-second-color: #003A37;
+}
+
+.international-calls {
+    background-image: url("../svg/ana-sayfa-zeminde-kullanılan-desen.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.footer {
+    padding-top: 1rem;
+    background-color: var(--footer-main-color);
+    color: #fff;
+}
+
+.foo {
+    min-height: 25rem;
+    color: #fff;
+}
+
+.footer-left span {
+    font-size: 1.063rem;
+}
+
+.footer-left a img {
+    width: 8.313rem;
+    height: 7.438rem;
+    margin-bottom: 2rem;
+}
+
+.footer-content a {
+    color: #ffffff !important;
+}
+
+.footer-social-icon div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-social-icon a img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.footer-social-icon a {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.copyright {
+    background-color: var(--footer-second-color);
+    color: #9EB4B3;
+    min-height: 7.7rem;
+    box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.banner-two {
+    background-image: url("../images/ZERDAVA_Banner-iki.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-social-icon-img {
+    width: 10%;
+    height: 10%;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-social-icon-img {
+        width: 1rem;
+        height: 1rem;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: inline-block;
+    }
+
+    .footer-social-icon {
+        display: block;
+    }
+
+    .footer-social-icon div {
+        display: contents;
+    }
+
+    .footer-social-icon a {
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    footer div ul {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo-text span {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-social-icon {
+        white-space: nowrap !important;
+        flex-wrap: nowrap;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+}
+/* footer */
