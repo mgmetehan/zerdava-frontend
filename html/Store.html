@@ -8,16 +8,14 @@
     <link href="../styles/Store.css" rel="stylesheet">
 </head>
 <body>
-
-
 <div class="brand-value">
     <div class="container">
         <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-center">
             <div class="container-fluid">
-                <img style="width: 10rem; height: 12rem;" src="../svg/üst-bantta-kullaılan-zerdava-logo.svg " />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <img src="../svg/üst-bantta-kullaılan-zerdava-logo.svg " style="width: 10rem; height: 12rem;"/>
+                <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler" data-bs-target="#navbarSupportedContent"
+                        data-bs-toggle="collapse" type="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse row row-cols-sm-1" id="navbarSupportedContent">
@@ -38,8 +36,8 @@
                                     <a class="nav-link active text-light" href="#">TR</a>
                                 </li>
                                 <li>
-                                    <img style="width: 1rem; height: 1rem;"
-                                         src="../svg/ZERDAVA-WEB-SİTESİ-dil-ikonu.svg" />
+                                    <img src="../svg/ZERDAVA-WEB-SİTESİ-dil-ikonu.svg"
+                                         style="width: 1rem; height: 1rem;"/>
                                 </li>
                             </ul>
                         </div>
@@ -48,15 +46,16 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-end"
                             style="text-shadow: 2px 2px rgba(0,0,0,0.2);">
                             <li class="nav-item">
-                                <a class="nav-link active text-light" aria-current="page" href="#">Hakkında</a>
+                                <a aria-current="page" class="nav-link active text-light" href="#">Hakkında</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active text-light" href="#">My ZERDAVA</a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn btn-light" onclick="togglePanel()"
+                                <button class="btn btn-light" id="btndestek" onclick="togglePanel()"
                                         style="background-color: transparent; color: aliceblue; border: none;"
-                                        id="btndestek">Mağaza</button>
+                                        type="button">Mağaza
+                                </button>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link active text-light" href="#">Destek</a>
@@ -89,7 +88,8 @@
                         <h1 class="mont-bold" style="font-size: 4rem; margin-bottom: 5%; color: #FFF;"> Mağaza </h1>
                     </div>
                     <div class="col-sm">
-                        <p class="mont-regular" style="text-align:justify"> Günümüz iletişim ve bilgi dünyasında, kurumsal ve kişisel verilerin korunması oldukça önem arz
+                        <p class="mont-regular" style="text-align:justify"> Günümüz iletişim ve bilgi dünyasında,
+                            kurumsal ve kişisel verilerin korunması oldukça önem arz
                             etmektedir. Bilgilerin korunmasını sağlayan en temel ölçüt ise şifrelendirme yöntemi. Fakat
                             şifrelendirmenin
                             de yeterli olmadığı sonuçlar ortaya çıkabilmekte. Bu noktada devreye
@@ -97,8 +97,10 @@
                             önlemlerden birisidir. Verilerin dışarıdan gelebilecek tüm erişimlere ve
                             siber saldırılara karşı korunmasını ifade eder.
                             Tüm kurumların sahip olduğu temel varlıkların başında gizli tutulması
-                            son derece önemli olan bilgiler gelir. Bu bilgiler veri olarak da adlandırılmaktadır. Veriler,
-                            yazılı, sesli ya da görüntülü olabilir. Bu değerli bilgilerle gelir elde edebilen kurumlar için,
+                            son derece önemli olan bilgiler gelir. Bu bilgiler veri olarak da adlandırılmaktadır.
+                            Veriler,
+                            yazılı, sesli ya da görüntülü olabilir. Bu değerli bilgilerle gelir elde edebilen kurumlar
+                            için,
                             verilerin saklanması ve korunması oldukça önemlidir. Aşağıdaki ZERDAVA ürünlerini kullanarak
                             verilerinizin güvenliğini sağlayabilirsiniz.</p>
                     </div>
@@ -228,7 +230,6 @@
                 <img class="mb-4" src="../svg/ZERDAVA-WEB-SİTESİ-22.svg"/>
                 <p class="text-center">Destek</p></a>
             </div>
-
         </div>
     </div>
 </div>
