@@ -89,3 +89,34 @@
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+@media screen and (max-width: 600px) {
+    footer div ul {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-logo-text span {
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-social-icon {
+        white-space: nowrap !important;
+        flex-wrap: nowrap;
+    }
+
+    .copyright {
+        font-size: 10px;
+    }
+
+}
+
+.copyright {
+    background-color: var(--footer-second-color);
+    color: #9EB4B3;
+    min-height: 7.7rem;
+    box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px -2px 5px 0px rgba(0, 0, 0, 0.75);
+}
