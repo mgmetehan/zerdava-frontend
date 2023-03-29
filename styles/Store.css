@@ -93,3 +93,24 @@
     border-radius: 5px;
     border: none;
 }
+
+.brand-value {
+    background-color: var(--text-main-color);
+    background-size: 100% 100%;
+    height: 70vh;
+    align-items: center;
+}
+
+.brand-value p {
+    color: #FFF;
+}
+
+#panel {
+    display: block;
+}
+
+.line {
+    width: 35rem;
+    margin-bottom: 2%;
+    border-bottom: 1rem rgb(250, 246, 246) solid;
+}
