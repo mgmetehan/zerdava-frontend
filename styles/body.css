@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+ .brand-value{
+  
+    background-image:url('../svg/arka_plan.png');
+    background-size: 100% 100%;
+    height: 100vh;
+    align-items: center;
+} 
+.brand-value p{
+    color: #FFF;
+}
+.textt{
+    color: #FFF;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 18rem;
+    font-size: 1.5rem;
+}
+.filigran{
+ background-image: url('./../svg/sitede-kullanılan-filigran.svg'); 
+background-size: cover;
+height: 50vh;
+background-repeat: no-repeat;
+}
+.card{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: none !important;
+    align-items: center;
+    gap: 5rem;
+}
+.cards{
+    width: 60%;
+    margin: auto;
+    border: none !important;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    border-radius: 2rem;
+    object-fit:cover;   
+}
+.kalkan{
+    background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
+    background-repeat: no-repeat;
+    background-position:10%;    
+    padding: 4rem;
+}  
+.kalkan2{
+    background-image:url('../svg/marka-değerlerinde-kullaılan-kalkan.svg');  
+    background-repeat: no-repeat;
+    background-position:right;
+  padding:4rem; 
+} 
+.card p{
+    color:#005352;
+    font-family: 'Mont-Bold';
+}
+.card h3{
+    padding-bottom: 5%;
+  color:#005352;
+}
+.line{
+    width: 35rem; margin-bottom: 2%;  border-bottom: 1rem rgb(250, 246, 246) solid;
+}
+.yusuf{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (max-width: 600px) {
+    
+    .filigran{
+       background-size: cover;
+       height: 10vh;
+       }
+
+}
+@media screen and (max-width: 1084px) {
+    
+    .filigran{
+       background-size: cover;
+       height: 19vh;
+       
+       }
+
+}
+  @media screen and (max-width: 600px) {
+    
+    .brand-value{
+        background-size: 100% 100%;
+        height: 70vh;
+        align-items: center;
+       }
+
+}  
+body {
+    background-image: url("../svg/web-sitesi-banner.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.aramaIcon {
+    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.scroll-up-div {
+    height: fit-content;
+    width: fit-content;
+    background-color: red;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+}
+.brand-value{
+    background-color: #005352;
+}
+@font-face {
+    font-family:'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
