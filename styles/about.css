@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/web-sitesi-banner.jpeg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+}
+
+.searchInput{
+    /*display: flex;
+    padding: 0px;
+    border-width: 0px;*/
+    transition: 0.5s;
+    max-width: 0px;
+}
+
+.aramaIcon:focus ~ .searchInput{
+    max-width: 200px;
+}
+
+.searchInput:focus{
+    max-width: 200px;
+}
+
+.aramaIcon {
+    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.panel-body{
+    background-color: rgba(0, 255, 255, 0.216);
+    height: calc(100% - 200%);
+    overflow-y: auto; 
+}
+
+.panel-body{
+    background-color: rgba(254, 255, 255, 0.704);
+}
+
+.brandValue{
+    width: 100%;
+    background-color: #00535129;
+    height: fit-content;
+    flex-direction: row;
+    display: flex;
+}
+
+.brandValue h6{
+    display: flex;
+    color: #005352;
+    margin: 5px;
+}
+
+.brandValue img{
+    width: 20px;
+    height: 20px;
+}
