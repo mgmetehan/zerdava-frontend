@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: mont-Regular;
+    src: url(.././font/Mont-Regular.otf);
+  }
+  
+  div {
+    font-family: mont-Regular;
+  }
+
+.button{
+    background-color: #005152;
+    border: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.6rem;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+    align-items: end;
+}
+
+.use-bg {
+    background-image: url('./../svg/anasayfaikonlarzemini.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: auto;
+    background-attachment: scroll;
+    display: flex;
+    align-items: center;
+}  
+
+.deneme{
+    width: 65%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+
+}
+
+.test{
+    width: 90% !important;
+    margin: auto;
+
+}
+
+.denemetxt{
+    width: 70%;
+    margin: auto;
+}
+
+.nav{
+    background-color: #005152;
+}
+
+.navbar-bg{
+        background-image: url('./../svg/anasayfaikonlarzemini.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: auto;
+        background-attachment: scroll;
+        display: flex;
+        align-items: center;
+}
