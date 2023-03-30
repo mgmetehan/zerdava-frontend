@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Mont-Regular';
+    src: url('../fonts/Mont-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Mont-Bold';
+    src: url('../fonts/Mont-Bold.otf') format('otf');
+}
+
+.mont-regular {
+    font-family: 'Mont-Regular';
+}
+
+.mont-bold {
+    font-family: 'Mont-Bold';
+}
+
+:root {
+    --text-main-color: #005152;
+    --store-navbar-color: #048F89;
+}
+
+.new-version {
+    background-image: linear-gradient(to right, #75CDA3, #3BB7AC);
+}
+
+.new-version p {
+    color: black;
+    text-overflow: ellipsis;
+    display: inline-block;
+}
+
+.new-version img {
+    display: block;
+    width: 30%;
+    height: 30%;
+}
+
+.filigran {
+    background-image: url('../svg/sitede-kullanılan-filigran.svg');
+    height: 20vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.store-navbar {
+    padding-top: 5rem;
+    background-color: var(--store-navbar-color);
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .store-navbar {
+        font-size: 1.5rem; /* 18px / 16px */
+    }
+
+    .store-navbar-text p {
+        margin-right: 0 !important;
+    }
+}
+
+.store-navbar-text {
+}
+
+.box-button {
+    margin-top: -2px;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: var(--text-main-color);
+    color: #fff;
+    border: none;
+    font-size: 10px;
+}
+
+.web-navbar {
+    background-color: var(--text-main-color);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aramaIcon {
+    background-image: url("../svg/ZERDAVA-WEB-SİTESİ-arama-ikonu.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+
+.brand-value {
+    background-color: var(--text-main-color);
+    background-size: 100% 100%;
+    height: 70vh;
+    align-items: center;
+}
+
+.brand-value p {
+    color: #FFF;
+}
+
+#panel {
+    display: block;
+}
+
+.line {
+    width: 35rem;
+    margin-bottom: 2%;
+    border-bottom: 1rem rgb(250, 246, 246) solid;
+}
